@@ -1,0 +1,39 @@
+.table td,
+.table t {
+    padding: 5pt;
+    margin: 5pt;
+    vertical-align: middle;
+}
+
+.one-page {
+    height: 81.0vh;
+    overflow: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.table {
+    margin: 10pt;
+    font-size: small;
+}
+
+.pseudo-test:after {
+   content: url('https://api.iconify.design/bi/bell-fill.svg?height=16');
+   vertical-align: -0.125em;
+}
+
+.background-test {
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+   vertical-align: -0.125em;
+   background: url('https://api.iconify.design/bi/bell-fill.svg') no-repeat
+       center center / contain;
+}
+
+.bd-green-700 {
+  color: #fff;
+  background-color: #1b722f;; 
+}
